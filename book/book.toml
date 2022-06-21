@@ -1,0 +1,15 @@
+[book]
+authors = ["kiarie404"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Log Book"
+
+
+[output.html]
+theme = "my-theme"
+default-theme = "Navy"
+preferred-dark-theme = "Navy"
+git-repository-url = "https://github.com/kiarie404/Attachment_journal"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/kiarie404/Attachment_journal/book/src{path}"

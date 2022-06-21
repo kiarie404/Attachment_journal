@@ -1,16 +1,16 @@
-# Attachment_journal
-This is an attachment journal at IMS Guru as an IT attachee.
-
-This is better than recording events in a physical log book. Why?
-- The integrity of the comments can be proven.
-- The timing of the entries can be proven
-- papers, printing is too much work.
-- ebooks are easier to edit.
+# introduction
 
 
-### How the ebook is made.
-I have used the [mdbook software](https://rust-lang.github.io/mdBook/) to make this journal.\
-You can read mdbook's documentation [here](https://rust-lang.github.io/mdBook/)
+This e-book works as a Log book during my internship at IMS Guru Limited.
+
+#### Attachment Details
+| Attachment Details       |          |
+| :------------- | :------------- |
+| **Student Name :**      | Wagura James Kiarie      |
+| **Reg. Number :**     | P15/1667/2019       |
+| **Company Name :**     | IMS Guru Limited      |
+| **Company web address :**     | [imsguru.com](http://www.imsguru.com/)     |
+
 
 #### Why an e-book hosted on Github?
 1. Reduces paperwork. The student doesn't have to print and scan a logbook.
