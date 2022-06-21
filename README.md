@@ -1,5 +1,5 @@
 # Attachment_journal
-This is an attachment journal at IMS Guru as an IT attachee.
+This is an attachment journal at IMS Guru.
 
 This is better than recording events in a physical log book. Why?
 - The integrity of the comments can be proven.
