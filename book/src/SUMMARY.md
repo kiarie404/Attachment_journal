@@ -6,7 +6,7 @@
 - [Week 1](week_1.md)
   - [Monday](20_06_2022.md)
   - [Tuesday](21_06_2022.md)
-  - [Wednesday]()
+  - [Wednesday](22_06_2022.md)
   - [Thursday]()
   - [Friday]()
   - [Supervisor's remarks]()  
@@ -17,3 +17,12 @@
 - [Week 6](week_6.md)
 - [Week 7](week_7.md)
 - [Week 8](week_8.md)
+
+# Reports
+- [Week 1 Reports]()
+  - [Monday]()
+  - [Tuesday](21_06_2022_report.md)
+  - [Wednesday]()
+  - [Thursday]()
+  - [Friday]()
+  - [Supervisor's remarks]()  
