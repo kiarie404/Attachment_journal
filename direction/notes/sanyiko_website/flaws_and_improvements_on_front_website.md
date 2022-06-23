@@ -73,8 +73,12 @@ Sanyiko is specially designed for Produce Aggregators.
 #### "Our solutions have won several awards and cater for Digital Transformation in Rural Areas."
 link text and upper picture to js animated awards and company-projects.
 
-#### "SANYIKO can be customized to spcific requirements of Aggregators in other sectors."
+#### "SANYIKO can be customized to specific requirements of Aggregators in other sectors."
+SANYIKO caters for both standard and niche uses. It is highly customizable.👍🏼
+SANYIKO caters for both standard and unique uses. It is highly customizable.👍🏼
+SANYIKO caters for both standard and custom uses. It is highly customizable.👍🏼
 SANYIKO can be easily customized to meet specific requirements of any Aggregator.
+SANYIKO meets all standard and custom features
 
 #### "Get your blood tests delivered at home collect a sample from the news your blood tests."
 *I don't know if customer support is available*
@@ -84,8 +88,10 @@ SANYIKO is backed up by both technical and operational customer support. Making 
 - Spelling of Transparency
 
 #### "Eliminates expensive setup costs for aggregators, directly accessible from Cloud"
-As the aggregator company, you don't have to invest in expensive IT setups to support your operations. We offer you cloud-hosted solutions.\
-All you need is a phone or laptop.
+No need to invest in expensive IT infrastructure, we'll take care of that 🤝.
+As the aggregator company, you don't have to invest in expensive IT setups to support your operations. We offer you cloud-hosted solutions.
+Eliminates expensive IT equipment, We offer you cloud-hosted solutions.
+All your company needs is a phone or a laptop.
 
 #### "Ramco Court, Mombasa Road,"
 change address

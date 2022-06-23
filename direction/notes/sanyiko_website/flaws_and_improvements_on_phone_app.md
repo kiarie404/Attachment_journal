@@ -24,7 +24,7 @@
 - Someone cannot scroll while typing. One is forced to click next or press the back button
 - password reset not working
 
-*Does putting the wrong password block the user?*
+*Does putting the wrong password block the user?*  
 
 #### 6. Main page
 1. Search lens not working.
