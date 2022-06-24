@@ -19,3 +19,6 @@ You can read mdbook's documentation [here](https://rust-lang.github.io/mdBook/)
     -  Using Git, the assessor/supervisor can know when an entry in the logbook was done.
 4. The student can attach relevant url links - which is impossible to do with scanned papers.
 5. ebooks are easier to edit. Editing physical papers is cumbersome (time, energy, peace of mind)
+
+
+- [ ] run
