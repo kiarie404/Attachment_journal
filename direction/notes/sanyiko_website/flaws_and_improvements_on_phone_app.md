@@ -1,3 +1,17 @@
+#### 0. Guidance for users and developers
+for users :
+ - user guide.
+ - user tutorials (video).
+ - faq
+ - mock capability
+
+
+for developers :
+  - modular docs
+  - mock capability
+
+A more intuitive UI
+Workflow-centered UI.
 
 #### 1. The App does not work on dark mode
 - Texts are unclear in entries
