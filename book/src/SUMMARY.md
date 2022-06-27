@@ -11,7 +11,7 @@
   - [Friday](24_06_2022.md)
   - [Supervisor's remarks](week_1_remarks.md)  
 - [Week 2]()
-  - [Monday]()
+  - [Monday](27_06_2022.md)
   - [Tuesday]()
   - [Wednesday]()
   - [Thursday]()
