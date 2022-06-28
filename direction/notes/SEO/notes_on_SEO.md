@@ -13,3 +13,8 @@ search engines crawl, index and understand your content; The search engine is ju
 ### [Definitions](https://developers.google.com/search/docs/beginner/seo-starter-guide#glossary)
 
 ### How does google crawl?
+
+
+## Look into
+1. [Tools](https://www.oberlo.com/blog/seo-tools)
+look into YOAST SEO.

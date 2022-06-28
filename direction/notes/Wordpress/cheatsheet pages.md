@@ -1,0 +1,10 @@
+
+1. [Guide](https://wordpress.com/support/getting-started-with-wordpress-com/)
+2. [Blocks](https://wordpress.com/support/wordpress-editor/blocks/)
+3. [site_editor](https://wordpress.com/support/site-editor/)
+4. [Query Loop back](https://wordpress.com/support/full-site-editing/theme-blocks/query-loop-block/)
+5. [Header_editing](https://wordpress.com/support/customize-your-header/)
+6. [side_bar_editing](https://wordpress.com/support/add-a-sidebar/)
+7. [re-organize your posts using side editor](https://wordpress.com/support/reorganize-elements-of-your-posts/)
+8. [understanding templates](https://wordpress.com/support/templates/)
+9. [Using styles](https://wordpress.com/support/using-styles/)
