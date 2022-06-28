@@ -20,8 +20,7 @@ Concerning the SEO thread, I found [this](https://www.99signals.com/single-page-
 TLDR :\
 Concerning SEO, single page websites have advantages and disadvantages.
 >***Advantage*** : Your SEO wins don't get scattered across multiple pages.\
->"Domain authority of a website is mostly determined by the number of backlinks the site has been able to generate.
-This works to the advantage of single page websites as all the links acquired by the site point to the same URL, meaning there will always be a 1:1 ratio of links to pages." 
+>"Domain authority of a website is mostly determined by the number of backlinks the site has been able to generate.\ This works to the advantage of single page websites as all the links acquired by the site point to the same URL, meaning there will always be a 1:1 ratio of links to pages." 
 
 >***Disadvantage*** : You’ll have to compromise on keyword rankings.\
 >Single page websites are usually developed around one main concept.\
