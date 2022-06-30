@@ -24,6 +24,7 @@ search engines crawl, index and understand your content; The search engine is ju
 look into YOAST SEO.
 6. [How google crawls](https://studiohawk.com.au/blog/how-does-google-crawl-websites/)
 7. [from semrush blogs](https://www.semrush.com/blog/learning-technical-seo/)
+8. [From hubspot](https://blog.hubspot.com/blog/tabid/6307/bid/33655/a-step-by-step-guide-to-flawless-on-page-seo-free-template.aspx)
 
 
 [THis](https://my.kulturekonnect.com/11-step-checklist-for-your-next-website-redesign-thank-you-download?submissionGuid=b980008a-857d-4a40-8d81-634884b06e36)
