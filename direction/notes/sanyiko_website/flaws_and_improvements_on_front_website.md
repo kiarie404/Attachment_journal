@@ -20,12 +20,17 @@
 "#1 App for produce collection"
 
 #### "Manage your Outgrowers"
+- making farm produce collection smoother
+- Making farm produce aggregation smoother
+- Making produce aggregation smoother
 - Manage farmers.
 - Manage farm produce aggregators
 - Manage farm produce collection
 - Manage farm produce aggregation
 - Digitally manage farm produce aggregators
 - Digitally manage farm produce collection
+- Automating produce aggregation
+- 
 
 
 #### Menu.
@@ -170,3 +175,39 @@ The App is fully integrated with Mpesa, making payments mobile, familiar and tru
 - Outgrowers
 - FAQ false
 - Stars - where input? not genuine
+
+
+* make produce collection easier by automating the management of farmer's data, payment
+
+collecting produce from farmers? we got your back.\
+Be it agricultural produce or animal produce.
+
+collection automation
+inentory record keeping
+accounting
+payments
+
+
+We automate record keeping by providing cloud services and mobile apps\
+Inventory, transactions
+We automate payment of farmers and agents via services like Mpesa and online banking services\
+Our software uses Artificial intellingence to provide business insights by analyzing your farmers' records\
+For example, It may detect the farmers who are  loans, fertilizers, 
+
+
+Integrity
+
+we automate the whole collection process. From handling the record keeping to facilitating payments and providing accounting services.
+
+
+
+### S1
+> Automating produce aggregation <br> we automate the whole collection process. From handling the record keeping to facilitating payments and providing accounting services.<br>
+> pic : tri-pic : motorcycle with milk : tea collectors
+
+### S2
+> gentle to Agents.<br> gentle to farmers  <br> Let farmers buy, sell and receive payments for agricultural goods via phones. <br>
+> pic : female farmer with a motorcycle guy
+
+### S3
+> Indispensable to companies <br> No more spreadsheets, automate inventory management and all the associated financial operations.

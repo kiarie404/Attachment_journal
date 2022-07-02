@@ -16,7 +16,7 @@
   - [Tuesday](week_2_tuesday.md)
   - [Wednesday](week_2_wednesday.md)
   - [Thursday](week_2_thursday.md)
-  - [Friday]()
+  - [Friday](week_2_friday.md)
   - [Supervisor's remarks]()
 - [Week 3]()
   - [Monday]()

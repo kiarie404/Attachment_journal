@@ -1,0 +1,2 @@
+- [Make logo transparent](https://www.photopea.com/)
+- [Get Icons](https://www.flaticon.com/)
