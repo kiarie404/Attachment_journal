@@ -1,4 +1,4 @@
-# Tuesday
+# Week 2 Tuesday Report
 
 [exit report?](week_2_tuesday.md)
 
