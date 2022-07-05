@@ -1,2 +1,3 @@
 - [Make logo transparent](https://www.photopea.com/)
 - [Get Icons](https://www.flaticon.com/)
+- [Blur image](https://www.befunky.com/create/blur-image/)

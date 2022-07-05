@@ -133,3 +133,41 @@ prevs:
 Industry-standard<span class="text-primary">Accounting services</span>
 
 Excellent<span class="text-primary">Customer support</span>
+
+
+### State of images
+under homepage
+1. 1920 x 776
+2. 360 X 380
+3. 370 * 400
+4. https://beta.sanyiko.com/wp-content/uploads/2021/10/service_dark2.png
+
+480 x 360
+299.95 KB
+
+5. https://beta.sanyiko.com/wp-content/uploads/2021/10/service_dark3.png
+
+480 x 360
+330.99 KB
+
+{ yada yada ... moving on to th next section}
+
+6. https://beta.sanyiko.com/wp-content/uploads/2021/10/projects_dark1.png
+
+284 x 230
+130.93 KB
+
+{}
+
+
+under About Us:
+1. Beside FAQ : https://beta.sanyiko.com/wp-content/uploads/2021/10/faq1.jpg
+
+570 x 591
+67.69 KB
+
+
+
+remnants of "About us".
+1. Your Welfare, Our Philosophy. <br>
+Growing Together
