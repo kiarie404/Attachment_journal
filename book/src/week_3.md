@@ -1,5 +1,6 @@
 # Week 3
 
-task Summary:
-- Finish creating all beta.sanyiko.com pages
-- Publish beta.sanyiko.com as sanyiko.com
+Objectives of week 3:
+
+- [ ] Finish creating beta.sanyiko.com
+- [ ] Replace and re-publish the main sanyiko.com with the beta.sanyiko.com 
