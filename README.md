@@ -21,4 +21,4 @@ You can read mdbook's documentation [here](https://rust-lang.github.io/mdBook/)
 5. ebooks are easier to edit. Editing physical papers is cumbersome (time, energy, peace of mind)
 
 
-- [ ] run
+- [ ] runs
