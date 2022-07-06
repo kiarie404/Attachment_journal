@@ -171,3 +171,45 @@ under About Us:
 remnants of "About us".
 1. Your Welfare, Our Philosophy. <br>
 Growing Together
+
+under Features:
+1. https://beta.sanyiko.com/wp-content/uploads/2021/10/service1.png
+
+339 x 368
+38.13 KB
+
+2. https://beta.sanyiko.com/wp-content/uploads/2021/10/service2.png
+
+312 x 392
+26.82 KB
+
+3. https://beta.sanyiko.com/wp-content/uploads/2021/10/service3.png
+
+288 x 418
+33.19 KB
+
+4. https://beta.sanyiko.com/wp-content/uploads/2021/10/service4.png
+
+417 x 439
+190.41 KB
+
+
+Under Contact:
+1. https://beta.sanyiko.com/wp-content/uploads/2021/10/006-monitor1.png
+
+55 x 51
+1.59 KB
+
+2. https://beta.sanyiko.com/wp-content/uploads/2021/10/034-idea-2.png
+
+51 x 51
+1.86 KB
+
+3. https://beta.sanyiko.com/wp-content/uploads/2021/10/021-solar-cell.png
+
+51 x 51
+1.77 KB
+
+
+page-title-1.jpg
+
