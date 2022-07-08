@@ -1,11 +1,13 @@
 # Attachment_journal
-This is an attachment journal at IMS Guru.
+This is an attachment journal at IMS Guru.<br>
+You can read it [here](https://kiarie404.github.io/Attachment_journal/)
 
 This is better than recording events in a physical log book. Why?
 - The integrity of the comments can be proven.
 - The timing of the entries can be proven
 - papers, printing is too much work.
-- ebooks are easier to edit.
+
+
 
 
 ### How the ebook is made.
@@ -22,3 +24,44 @@ You can read mdbook's documentation [here](https://rust-lang.github.io/mdBook/)
 
 
 - [ ] runs
+
+
+CAF no
+type of loan*
+Client nanme
+Value of asset*
+Down payment
+Financed amount
+Disbursal date*
+first INstallement
+Tenor
+Interest rate
+EFF rate (1/2) *
+Inst amount
+Inst paid
+
+
+cases
+- 3293Jun19 
+
+Issues :
+1.   3632/Sep20 - CRITICAL, conflicting Amount to Finance  ---- fixed by 
+2.   3663/Oct20,  3661/Oct20,  3662/Oct20  - rounded off interest from 9.045 to 9.05
+3.    3998/Jan22 - conflicting dates
+4.    3994/Jan22 - not yet found
+5.    3964/Dec21 - is on 01/10/2022
+
+
+FRIDAY
+-  3790/Apr21 - instances paid conflict, Pic taken
+-  3824/May21  -  Part A,Part B,Part C,Part D  -- "How do we fill?"
+-  3787/Apr21  - No first installment date
+
+
+
+
+ 
+
+
+    
+

@@ -211,5 +211,5 @@ Under Contact:
 1.77 KB
 
 
-page-title-1.jpg
+page-title-1.jpg  - 1920 by 444 pixels
 
