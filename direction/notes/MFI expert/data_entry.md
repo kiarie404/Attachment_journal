@@ -34,3 +34,6 @@ FRIDAY
 -  3612/Aug20  - Installment dates 
 -  3706/Dec20  - Two different trasactions, 3 diff one doc
 -  3695/Nov20 
+-  3386/Sep19 - Two different files. Different Repayment schedules(both unstamped) 
+-  3202/Feb19  - Part D - Missing
+-   3598/Aug20 - conflicting Downpyment calcs
