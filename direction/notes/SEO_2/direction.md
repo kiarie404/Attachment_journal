@@ -15,4 +15,12 @@
 ##### So how do I achieve this?
 - look for a good learning resource
 - look for the right evaluation tools
-- look for the 
+
+
+
+
+### Plans
+- use blog to increase keyword count. 
+- alt and captions of images with keywords.
+- use transitional words
+- 

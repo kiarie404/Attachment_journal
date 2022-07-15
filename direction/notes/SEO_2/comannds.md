@@ -1,0 +1,2 @@
+- site:seosly.com
+- SEO audits site:seosly.com   ---> some keyword site:somename.com
