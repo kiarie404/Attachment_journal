@@ -1,0 +1,4 @@
+- Write blogs that answer questions
+- Put question in title
+- Put keywords in alt tags.
+- Put keywords in intros.
