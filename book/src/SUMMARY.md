@@ -46,6 +46,8 @@
   - [Friday](week_6_friday.md)
 - [Week 7]()
   - [Monday](week_7_monday.md)
+  - [Tuesday](weeek_7_tuesday.md)
+  - [Wednesday](week_7_wednesday.md)
 - [Week 8]()
 
 - [Reports](reports.md)

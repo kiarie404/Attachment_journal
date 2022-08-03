@@ -1,0 +1,847 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Log Book</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">introduction</a></li><li class="chapter-item expanded "><a href="week_1.html"><strong aria-hidden="true">1.</strong> Week 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="20_06_2022.html"><strong aria-hidden="true">1.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="21_06_2022.html"><strong aria-hidden="true">1.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="22_06_2022.html"><strong aria-hidden="true">1.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="23_06_2022.html"><strong aria-hidden="true">1.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="24_06_2022.html"><strong aria-hidden="true">1.5.</strong> Friday</a></li><li class="chapter-item expanded "><a href="week_1_remarks.html"><strong aria-hidden="true">1.6.</strong> Supervisor's remarks</a></li></ol></li><li class="chapter-item expanded "><a href="week_2_outline.html"><strong aria-hidden="true">2.</strong> Week 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="27_06_2022.html"><strong aria-hidden="true">2.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="week_2_tuesday.html"><strong aria-hidden="true">2.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_2_wednesday.html"><strong aria-hidden="true">2.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="week_2_thursday.html"><strong aria-hidden="true">2.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="week_2_friday.html"><strong aria-hidden="true">2.5.</strong> Friday</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><a href="week_3_outline.html"><strong aria-hidden="true">3.</strong> Week 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="week_3_monday.html"><strong aria-hidden="true">3.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="week_3_tuesday.html"><strong aria-hidden="true">3.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_3_wednesday.html"><strong aria-hidden="true">3.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="week_3_thursday.html"><strong aria-hidden="true">3.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="week_3_friday.html"><strong aria-hidden="true">3.5.</strong> Friday</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><a href="week_4_outline.html"><strong aria-hidden="true">4.</strong> Week 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="week_4_monday.html"><strong aria-hidden="true">4.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="week_4_tuesday.html"><strong aria-hidden="true">4.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_4_wednesday.html"><strong aria-hidden="true">4.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="week_4_thursday.html"><strong aria-hidden="true">4.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="week_4_friday.html"><strong aria-hidden="true">4.5.</strong> Friday</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><a href="week_5_outline.html"><strong aria-hidden="true">5.</strong> Week 5</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="week_5_monday.html"><strong aria-hidden="true">5.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="week_5_tuesday.html"><strong aria-hidden="true">5.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_5_wednesday.html"><strong aria-hidden="true">5.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="week_5_thursday.html"><strong aria-hidden="true">5.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="week_5_friday.html"><strong aria-hidden="true">5.5.</strong> Friday</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><a href="week_6.html"><strong aria-hidden="true">6.</strong> Week 6</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="week_6_monday.html"><strong aria-hidden="true">6.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="week_6_tuesday.html"><strong aria-hidden="true">6.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_6_wednesday.html"><strong aria-hidden="true">6.3.</strong> Wednesday</a></li><li class="chapter-item expanded "><a href="week_6_thursday.html"><strong aria-hidden="true">6.4.</strong> Thursday</a></li><li class="chapter-item expanded "><a href="week_6_friday.html"><strong aria-hidden="true">6.5.</strong> Friday</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Week 7</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="week_7_monday.html"><strong aria-hidden="true">7.1.</strong> Monday</a></li><li class="chapter-item expanded "><a href="weeek_7_tuesday.html"><strong aria-hidden="true">7.2.</strong> Tuesday</a></li><li class="chapter-item expanded "><a href="week_7_wednesday.html"><strong aria-hidden="true">7.3.</strong> Wednesday</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Week 8</div></li><li class="chapter-item expanded "><a href="reports.html"><strong aria-hidden="true">9.</strong> Reports</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> Week 1 Reports</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.1.</strong> Monday report</div></li><li class="chapter-item expanded "><a href="21_06_2022_report.html"><strong aria-hidden="true">9.1.2.</strong> Tuesday report</a></li><li class="chapter-item expanded "><a href="22_06_2022_report.html"><strong aria-hidden="true">9.1.3.</strong> Wednesday report</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.4.</strong> Thursday report</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.5.</strong> Friday report</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.</strong> Week 2 Reports</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.1.</strong> Monday report</div></li><li class="chapter-item expanded "><a href="week_2_tuesday_report.html"><strong aria-hidden="true">9.2.2.</strong> Tuesday report</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.3.</strong> Wednesday report</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.4.</strong> Thursday report</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.5.</strong> Friday report</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.6.</strong> Supervisor's remarks</div></li></ol></li><li class="chapter-item expanded "><a href="week_3_report.html"><strong aria-hidden="true">9.3.</strong> Week 3 report</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Log Book</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/kiarie404/Attachment_journal" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">introduction</a></h1>
+<p>This e-book works as a Log book during my internship at IMS Guru Limited.</p>
+<h4 id="attachment-details"><a class="header" href="#attachment-details">Attachment Details</a></h4>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Attachment Details</th><th style="text-align: left"></th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Student Name :</strong></td><td style="text-align: left">Wagura James Kiarie</td></tr>
+<tr><td style="text-align: left"><strong>Reg. Number :</strong></td><td style="text-align: left">P15/1667/2019</td></tr>
+<tr><td style="text-align: left"><strong>Company Name :</strong></td><td style="text-align: left">IMS Guru Limited</td></tr>
+<tr><td style="text-align: left"><strong>Company web address :</strong></td><td style="text-align: left"><a href="http://www.imsguru.com/">imsguru.com</a></td></tr>
+</tbody></table>
+</div>
+<h4 id="why-an-e-book-hosted-on-github"><a class="header" href="#why-an-e-book-hosted-on-github">Why an e-book hosted on Github?</a></h4>
+<ol>
+<li>Reduces paperwork. The student doesn't have to print and scan a logbook.</li>
+<li>The log book is now more portable. All that is needed is a web address.</li>
+<li>More integrity is enforced because ;
+<ul>
+<li>Using Git, the assessor/supervisor can know when an entry in the logbook was done.</li>
+</ul>
+</li>
+<li>The student can attach relevant url links - which is impossible to do with scanned papers.</li>
+<li>ebooks are easier to edit. Editing physical papers is cumbersome (time, energy, peace of mind)</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-1"><a class="header" href="#week-1">Week 1</a></h1>
+<p>In summary, The tasks in week one were :</p>
+<ul>
+<li>Get familiar with the company's websites.</li>
+<li>Get familiar with the company's online services.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday"><a class="header" href="#monday">Monday</a></h1>
+<p>Nothing much happened, this was my first day.</p>
+<ul>
+<li>Got to know my colleagues.</li>
+<li>Discussed my learning map for the first week.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday"><a class="header" href="#tuesday">Tuesday</a></h1>
+<p>Here is the original schedule, might happen or not.<br />
+<a href="./21_06_2022_report.html">check Tuesday's end report?</a></p>
+<h3 id="examine-the-imsgurucom-website"><a class="header" href="#examine-the-imsgurucom-website">Examine the imsguru.com website</a></h3>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+who are its users</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Its core purposes</li>
+<li><input disabled="" type="checkbox"/>
+Its technical architecture (abstract)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Find its flaws { UI, SEO, responsivity, performance, functionalities }
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+UI</li>
+<li><input disabled="" type="checkbox"/>
+SEO</li>
+<li><input disabled="" type="checkbox"/>
+Performance</li>
+<li><input disabled="" type="checkbox" checked=""/>
+responsivity</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Functionality</li>
+</ul>
+</li>
+</ul>
+<h3 id="examine-the-imsgurucom--beta-website"><a class="header" href="#examine-the-imsgurucom--beta-website">Examine the imsguru.com  beta website</a></h3>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+compare its UI against the current imsguru.com website. (borrow what, remove what, improve what)</li>
+<li><input disabled="" type="checkbox"/>
+Learn its technical design(high level)</li>
+</ul>
+<p><em>Considering the website is still under construction, I can only point out improvements based on the analysis of the current imsguru home site</em></p>
+<h4 id="tasks-that-maybe-postponed"><a class="header" href="#tasks-that-maybe-postponed">tasks that maybe postponed</a></h4>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Learn a bit of SEO.</li>
+<li><input disabled="" type="checkbox"/>
+Learn a bit of whatever google analytics is or its alternatives.</li>
+<li><input disabled="" type="checkbox"/>
+Learn how to test website speed</li>
+</ul>
+<h4 id="for-supervisor"><a class="header" href="#for-supervisor">For supervisor:</a></h4>
+<ul>
+<li>How has the SEO been implemented?</li>
+<li>What is the structure of the website?</li>
+<li>How have you hosted the website?</li>
+</ul>
+<p><a href="./21_06_2022_report.html">check Tuesday's end report?</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday"><a class="header" href="#wednesday">Wednesday</a></h1>
+<p>get the resultant <a href="22_06_2022_report.html">report</a>?</p>
+<h3 id="getting-a-gist-of-sanyikocom"><a class="header" href="#getting-a-gist-of-sanyikocom">Getting a gist of Sanyiko.com.</a></h3>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+understand the purpose/functionalities of sanyiko.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Read the website segments from the perspective of a new-comer and evaluate if the wording of the is easily understood.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Probably look at competitor's website to get some ideas</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Come up with better wording for each website segment.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Examine the SANYIKO Android application - Kieni dairy domain</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Look for bugs and wording adjustments</li>
+<li><input disabled="" type="checkbox"/>
+compile Wednesday's report</li>
+</ul>
+<p><em>we are trying to change the text in our website so that...</em><br />
+<em>1. We increase the website's SEO</em><br />
+<em>2. We make it easy for visitors to understand our products</em></p>
+<p><em>I will compile Wednesday's report on Thursday before 9:30am</em>
+✌🏽</p>
+<p>get the resultant <a href="22_06_2022_report.html">report</a>? </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday"><a class="header" href="#thursday">Thursday</a></h1>
+<p><em>Fact</em> : I did not understand the sanyiko phone application well. <br>
+I need help to understand the workflow of each user. That way, I will get to know the relevance of all these records and financial ledgers. I am in the dark.</p>
+<p><em><strong>Tasks for the day</strong></em></p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Inquire about the users of Sanyiko app</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Determine each users workflow -- the one I have is vague, maybe we should create a user guide? and a developer documentation.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+inquire about user guide</li>
+<li><input disabled="" type="checkbox" checked=""/>
+inquire about developer guide</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Learn what IMS expert is</li>
+<li><input disabled="" type="checkbox" checked=""/>
+find IMS expert website flaws</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Learn what MFI expert is, in preparation for tomorrow's login</li>
+</ul>
+<p><em><strong>puzzling questions</strong></em></p>
+<ul>
+<li>Are there user guides for these apps?</li>
+<li>Are there developer documentation for these apps?</li>
+<li>What is the difference between MFI and IMS expert? Is it that MFI is an ERP focused on credid-only Microfinances?</li>
+</ul>
+<p><em><strong>To Harsha...</strong></em><br />
+Can we rebuild the Sanyiko App from scratch?</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday"><a class="header" href="#friday">Friday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+look at the flaws in the MFI website
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+read the 3 brochures
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+hire-purchase financing - file missing</li>
+<li><input disabled="" type="checkbox" checked=""/>
+saccos - fie missing</li>
+<li><input disabled="" type="checkbox" checked=""/>
+credit only microfinance</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"/>
+get access rights on both MFI and IMS.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+If Harsha has not yet shown up, start learning about Wordpress.</li>
+<li><input disabled="" type="checkbox"/>
+If Harsha shows up...
+<ul>
+<li><input disabled="" type="checkbox"/>
+Sit down with Liz or Harsha - determine the app user workflows.</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="supervisors-remarks"><a class="header" href="#supervisors-remarks">Supervisor's remarks</a></h1>
+<h3 id="on-tuesday"><a class="header" href="#on-tuesday">on Tuesday</a></h3>
+<ul>
+<li>main objectives were complete. 🥳</li>
+<li>Suggested that I learn the functionalities of the applications only ; To leave the technical detais for week 2. By technical details he meant { application structure and SEO}</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-2"><a class="header" href="#week-2">Week 2</a></h1>
+<p>week 2 work outline: </p>
+<ol>
+<li>Learn Wordpress  ---- this will be continuous.</li>
+<li>Get a template for sanyiko and host it.   ----- Tuesday, </li>
+<li>Update sanyiko.com - interface            ----- Wednesday, Thusrsday, Friday</li>
+<li>Update Sanyiko's SEO  - Possibly Friday, but if reality hits...this will get done in week 3</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-1"><a class="header" href="#monday-1">Monday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+finish up on sanyiko</li>
+<li><input disabled="" type="checkbox" checked=""/>
+complete review of MFI mobile and PC application</li>
+<li><input disabled="" type="checkbox" checked=""/>
+continue learning wordpress.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-1"><a class="header" href="#tuesday-1">Tuesday</a></h1>
+<p><a href="week_2_tuesday_report.html">Here is Tuesday's report</a></p>
+<p>task outline :</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+modify a sample website using wordpress. --- preferably a business website... or a portfolio website.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Get MonsterOne.com rights and get farmiliar with their site actions... eg how to hook with wordpress.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Using the previous sanyiko.com, find out what info needs to be retained in the new site.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Start looking for template and Find a template</li>
+</ul>
+<p><a href="week_2_tuesday_report.html">Tuesday's report</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-1"><a class="header" href="#wednesday-1">Wednesday</a></h1>
+<p>Based on <a href="week_2_tuesday.html">Tuesday's work</a>, the <a href="https://monsterone.com/wordpress-themes/dryad-gardening-company-wordpress-theme-o195604/">drayd -- 5 star</a> theme was chosen for the new sanyiko.com website.</p>
+<p>task outline :</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+try to come up with ideas for the new sanyiko theme before 11:00 am meeting with Harsha.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+have a meeting with Harsha, discuss different Website sections to implement</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Gather data from the old Sanyiko.com website.</li>
+<li><input disabled="" type="checkbox"/>
+Make changes on the Homepage of the new sanyiko.com</li>
+</ul>
+<p><em>How do you determine the performance of a website?</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday-1"><a class="header" href="#thursday-1">Thursday</a></h1>
+<p>task outline :</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Task</th><th style="text-align: left">Time</th></tr></thead><tbody>
+<tr><td style="text-align: left">Modify homepage completely</td><td style="text-align: left">by 3:00pm</td></tr>
+<tr><td style="text-align: left">present homepage to Harsha and Liz</td><td style="text-align: left">by 4:00pm</td></tr>
+<tr><td style="text-align: left">make the suggested changes as suggested by Harsha and Liz</td><td style="text-align: left">by 5:00pm</td></tr>
+</tbody></table>
+</div>
+<p><em>later</em></p>
+<ul>
+<li>install Graphics Draw package in Wordpress - this will help in image cropping processes (<a href="https://scanwp.net/blog/how-to-fix-there-has-been-an-error-cropping-your-image-error/">as suggested here</a>)</li>
+<li></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday-1"><a class="header" href="#friday-1">Friday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+finish homepage
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+change the wording and contents</li>
+<li><input disabled="" type="checkbox"/>
+change the background pictures</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox" checked=""/>
+present to Harsha and Liz</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-3"><a class="header" href="#week-3">Week 3</a></h1>
+<p>Objectives of week 3:</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Finish creating beta.sanyiko.com</li>
+<li><input disabled="" type="checkbox"/>
+Replace and re-publish the main sanyiko.com with the beta.sanyiko.com </li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-2"><a class="header" href="#monday-2">Monday</a></h1>
+<p>task outline :</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Upload new images to the homepage</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Present to Harsha and Liz</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Create About page</li>
+</ul>
+<p><em>Extra</em> :</p>
+<ul>
+<li>Take care of Signup/login</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-2"><a class="header" href="#tuesday-2">Tuesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Finish up on About page and Present to Harsha</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Handle the Features page</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Handle the FAQ page</li>
+<li><input disabled="" type="checkbox"/>
+Present Pages to Harsha. --- Harsha was on a meeting</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-2"><a class="header" href="#wednesday-2">Wednesday</a></h1>
+<p>task outline :</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Fill out the FAQ questions in the FAQ page.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Create the contacs page in the beta.sanyiko.com</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Insert new image for the features section.</li>
+<li><input disabled="" type="checkbox"/>
+Fix the header bug affecting the pages other than the homepage.</li>
+<li><input disabled="" type="checkbox"/>
+Present full website to Harsha</li>
+</ul>
+<h4 id="what-remains"><a class="header" href="#what-remains">What remains</a></h4>
+<ul>
+<li>Creating content for the &quot;read more&quot; buttons found in the { Home-page, features-page}</li>
+<li>Creating our advertisement Youtube video.</li>
+<li>fix customer reviews</li>
+<li>SEO testing and plugins</li>
+<li>Site usability testing</li>
+<li>Site performance testing</li>
+<li>Site hosting</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday-2"><a class="header" href="#thursday-2">Thursday</a></h1>
+<p>I went to ASL Credit ltd to collect data for the <a href="https://mfiexpert.com/">MFI expert system.</a> </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday-2"><a class="header" href="#friday-2">Friday</a></h1>
+<p>We did data entry tasks on the loan records at ASL credit ltd
+We went to ASL credit ltd to collect data for the <a href="https://mfiexpert.com/">MFI-Expert system.</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-4-outline"><a class="header" href="#week-4-outline">Week 4 Outline</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+finish the data Collection at ASL credit ltd.</li>
+<li><input disabled="" type="checkbox"/>
+Implement SEO to beta.sanyiko.com.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-3"><a class="header" href="#monday-3">Monday</a></h1>
+<p>This was a Holiday.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-3"><a class="header" href="#tuesday-3">Tuesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Finish loan data collection at ASL credit.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-3"><a class="header" href="#wednesday-3">Wednesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Learn about wordpress SEO.
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+learn the basics</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Check out different SEO tools ---- checked (Google search console, Google Analytics, AIOSEO, Yoast SEO)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Check out Wordpress-specific tools (if possible)</li>
+</ul>
+</li>
+</ul>
+<p>So I managed to :</p>
+<ul>
+<li>Install and Navigate around the AIOSEO plugin</li>
+<li>Access Google search console</li>
+<li>Access Google Analytics</li>
+<li>Upload sitemap for indexing</li>
+<li>Edited search appearance </li>
+<li>edited some perma-links</li>
+</ul>
+<p>But all the SEO statistics are at zero, empty graphs, no clicks. Just empty</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday-3"><a class="header" href="#thursday-3">Thursday</a></h1>
+<ul>
+<li>we published beta.sanyiko.com as sanyiko.com.</li>
+<li>continued to learn SEO</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday-3"><a class="header" href="#friday-3">Friday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Edit the Homepage to suit SEO requirements.</li>
+<li><input disabled="" type="checkbox"/>
+Edit About us page to suit SEO requirements.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-5"><a class="header" href="#week-5">Week 5</a></h1>
+<ol>
+<li>Finalize SEO. From here on we make continuous little improvements.</li>
+<li>Learn Native script.</li>
+<li>Learn Sanyiko App archiecture </li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-4"><a class="header" href="#monday-4">Monday</a></h1>
+<ul>
+<li>take care of how our pages are displayed in google searches</li>
+<li>Deal with local SEO settings(contacts, maps) --- plus submit site-map.</li>
+<li>Start learning native script.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-4"><a class="header" href="#tuesday-4">Tuesday</a></h1>
+<ul>
+<li>continue learning nativeScript :
+<ul>
+<li>build a simple supermarket App. (using static data and avoid using HTTP APIs) {minimum 2 days work}</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-4"><a class="header" href="#wednesday-4">Wednesday</a></h1>
+<p>I read Nativescript. Got stuck on trying to read the guide documentation.<br />
+I decided to switch to React Native. But the Javascript family does not interest me at all.<br />
+So I settled for Flutter. It uses the Dart programming language.</p>
+<p>So yes, I will learn Flutter from here on.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday-4"><a class="header" href="#thursday-4">Thursday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+finish <a href="https://docs.flutter.dev/get-started/codelab">this Flutter Tutorial</a> by today.</li>
+<li><input disabled="" type="checkbox"/>
+Finish <a href="https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0">this other Flutter tutorial</a></li>
+<li><input disabled="" type="checkbox"/>
+Start Learning Dart Language</li>
+</ul>
+<p><em><strong>Change of plans:</strong></em><br>
+I will try to do both Nativescript and Flutter.<br />
+I will build a simple App and compare the results btwn the 2 frameworks.</p>
+<p><em>Am starting to think that I should learn the Dart Language first. This tutorial has so much syntatic sugar</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday-4"><a class="header" href="#friday-4">Friday</a></h1>
+<ul>
+<li>Learn CSS, and learn it well.</li>
+</ul>
+<h6 id="why"><a class="header" href="#why">Why?</a></h6>
+<ul>
+<li>CSS is VERY frustrating. I need to master it so it stops hurting my head. </li>
+<li>I am wasting hours trying to implement simple UI ... can I really call myself a programmer if I give backend more weight than front end??</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-6"><a class="header" href="#week-6">Week 6</a></h1>
+<ul>
+<li>Finish learning CSS</li>
+<li>Create a pseudo-app to show CSS and Javascript understanding</li>
+<li>start learning the Sanyiko app.</li>
+<li>add at least 2 pages to Sanyiko --- with the aim of increasing its SEO.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-5"><a class="header" href="#monday-5">Monday</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-5"><a class="header" href="#tuesday-5">Tuesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Fix some pages on <a href="http://alpha.imsguru.com/">alpha.imsguru.com</a></li>
+<li><input disabled="" type="checkbox" checked=""/>
+continue practising CSS in nativescript playground</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-5"><a class="header" href="#wednesday-5">Wednesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+learn CSS grid.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Learn CSS flexbox.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Build at least 3 pages using the 2 tools.</li>
+<li><input disabled="" type="checkbox"/>
+Build the homepage of the phone app. {... this is an extra task}</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="thursday-5"><a class="header" href="#thursday-5">Thursday</a></h1>
+<p><em>It has become clear that coding the user Interface is not my cup of tea.</em><br>
+<em>I will therefore build bare-minimum UIs and concentrate on the back-end</em></p>
+<p>tasks:<br></p>
+<ul>
+<li>Build bare minimum pages.</li>
+<li>Ask Harsha to show you the Backend architecture.</li>
+</ul>
+<p><em>The deadline for publishing imsguru.com has been pushed to Monday 1st Aug 2022. So from here on I will concentrate on beta.imsguru.com</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="friday-5"><a class="header" href="#friday-5">Friday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Continue working on the beta.imsguru.com website
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Finish homepage</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Finish contact page</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Find suitable plugins to help build clients page</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monday-6"><a class="header" href="#monday-6">Monday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+<p>Continue working on beta.imsguru.com</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+build &quot;Our clients page&quot;</li>
+<li><input disabled="" type="checkbox" checked=""/>
+build &quot;Sanyiko product page&quot;</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Fill our FAQ page</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"/>
+<p>Launch half-done-website</p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tuesday-6"><a class="header" href="#tuesday-6">Tuesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Finishing touches on alpha.imsguru.com</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Attend Industrial attachment assessment</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="wednesday-6"><a class="header" href="#wednesday-6">Wednesday</a></h1>
+<ul>
+<li><input disabled="" type="checkbox"/>
+Cover <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ">this tutorial</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="reports"><a class="header" href="#reports">Reports</a></h1>
+<p>This section contains :</p>
+<ul>
+<li>The Attachment final report.</li>
+<li>Task reports - Sometimes, reports get generated. For example, after completing a task at work.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-1-tuesday-report"><a class="header" href="#week-1-tuesday-report">Week 1 Tuesday Report</a></h1>
+<p><a href="./21_06_2022.html">go back ?</a></p>
+<h2 id="1-imsgurucom"><a class="header" href="#1-imsgurucom">1. imsguru.com</a></h2>
+<h3 id="features-worth-keeping-under"><a class="header" href="#features-worth-keeping-under">Features worth keeping under...</a></h3>
+<h5 id="homepage"><a class="header" href="#homepage">homepage</a></h5>
+<ul>
+<li>&quot;our products&quot; segment remains in the main page, above &quot;our projects&quot;</li>
+<li>keep the footer {repeated menu, products, Clients add logos and js tally}</li>
+<li>keep the &quot;UP-js button&quot; at the bottom of the page</li>
+</ul>
+<h5 id="about-page"><a class="header" href="#about-page">About page</a></h5>
+<ul>
+<li>maintain &quot;our history&quot; segment but let it come at the bottom of the page, above the footer</li>
+<li>maintain &quot;our portal&quot; segment</li>
+<li>maintain &quot;why us&quot; segment</li>
+</ul>
+<h3 id="possible-improvements"><a class="header" href="#possible-improvements">Possible improvements</a></h3>
+<h4 id="ui"><a class="header" href="#ui">UI</a></h4>
+<h5 id="home-page"><a class="header" href="#home-page">Home page</a></h5>
+<ul>
+<li>how about we have one page setups, with less scrolls (in both mobile and laptop screens).</li>
+<li>keep the footer {repeated menu, products, Clients add logos and js tally}</li>
+<li>Add mail, phone and instagram icons</li>
+<li>Add reviews from major brands eg UN-Habitat and Farmers choice.</li>
+</ul>
+<h5 id="about-page-1"><a class="header" href="#about-page-1">About page</a></h5>
+<ul>
+<li>Currently The skills links lead to homepage, how about we lead them to js real life statistics. eg</li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skill</th><th style="text-align: left">action</th></tr></thead><tbody>
+<tr><td style="text-align: left">Web hosting</td><td style="text-align: left">Visually display number of hosted clients, major brands on board, reviews</td></tr>
+<tr><td style="text-align: left">Professional web design</td><td style="text-align: left">Visually display number of designed websites, major brands on board, reviews, links to major brands{increases our SEO}</td></tr>
+<tr><td style="text-align: left">...</td><td style="text-align: left">...</td></tr>
+</tbody></table>
+</div>
+<h3 id="flaws"><a class="header" href="#flaws">Flaws.</a></h3>
+<h4 id="security"><a class="header" href="#security">security.</a></h4>
+<ul>
+<li>Http vs https - the &quot;Not secure&quot; label might alarm customers --- &quot;what if these guys don't care about security?&quot;</li>
+</ul>
+<h4 id="homepage-1"><a class="header" href="#homepage-1">Homepage</a></h4>
+<ul>
+<li>&quot;See all products &quot;button in main page not working</li>
+<li>Cut on the banners??</li>
+<li>Cut on the stock images ??</li>
+<li>The &quot;products segment&quot; come after &quot;our projects&quot; segment</li>
+<li>&quot;IMS Billing&quot; not working</li>
+</ul>
+<h4 id="about-page-2"><a class="header" href="#about-page-2">About page</a></h4>
+<ul>
+<li>&quot;BIMS application&quot; link leads to an Error 404</li>
+<li>&quot;Testimonials&quot; segment lead to homepage, so truly --- you get no testimonials.
+Let's bring in branded testimonials, SME testimonials(encourage other SMEs), Startup testimonials(innovation craze fuel)</li>
+<li>All &quot;skill links&quot; lead to homepage how about we lead them to js real life statistics. eg</li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skill</th><th style="text-align: left">action</th></tr></thead><tbody>
+<tr><td style="text-align: left">Web hosting</td><td style="text-align: left">Visually display number of hosted clients, major brands on board, reviews</td></tr>
+<tr><td style="text-align: left">Professional web design</td><td style="text-align: left">Visually display number of designed websites, major brands on board, reviews, links to major brands{increases our SEO}</td></tr>
+<tr><td style="text-align: left">...</td><td style="text-align: left">...</td></tr>
+</tbody></table>
+</div>
+<h4 id="ims-xpert"><a class="header" href="#ims-xpert"><a href="http://www.imsguru.com/products/donor-projects-accounting-system">IMS XPERT</a></a></h4>
+<ul>
+<li>All bulleted links have wrong leads</li>
+</ul>
+<h4 id="billing-page"><a class="header" href="#billing-page"><a href="http://www.imsguru.com/products/utility-billing">Billing page</a></a></h4>
+<ul>
+<li>One of the picture scrolls is a blank white image.</li>
+<li>The links for the &quot;dropdown product menu&quot; are misleading</li>
+</ul>
+<p><a href="./21_06_2022.html">go back ?</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-1-wednesday-report"><a class="header" href="#week-1-wednesday-report">Week 1 Wednesday Report</a></h1>
+<p><a href="22_06_2022.html">go back?</a>
+<a href="22_06_2022.html">exit report?</a></p>
+<h5 id="here-are-the-tasks-i-managed-to-get-done"><a class="header" href="#here-are-the-tasks-i-managed-to-get-done">here are the tasks I managed to get done:</a></h5>
+<ol>
+<li>Find flaws in <a href="https://sanyiko.com/">sanyiko.com</a></li>
+<li>Rephrase the wording in <a href="https://sanyiko.com/">sanyiko.com</a> .</li>
+<li>Find flaws in the sanyiko mobile app (Kieni dairy products)</li>
+</ol>
+<h5 id="here-are-the-tasks-i-did-not-get-done"><a class="header" href="#here-are-the-tasks-i-did-not-get-done">here are the tasks I did not get done</a></h5>
+<ol>
+<li><em>Understanding the sanyiko mobile app.</em> - I need help to understand the workflow of each user. That way, I will get to know the relevance of all these records and financial ledgers. I am in the dark.</li>
+</ol>
+<h2 id="a-sanyiko-main-website-flaws"><a class="header" href="#a-sanyiko-main-website-flaws">A. Sanyiko main website flaws</a></h2>
+<ul>
+<li>Considering the flaws are about the User Interface, It is better to do a video presentation. Harsha, if we meet then ... I can demonstrate</li>
+</ul>
+<h2 id="b-sanyiko-phone-application"><a class="header" href="#b-sanyiko-phone-application">B. Sanyiko phone application</a></h2>
+<p>here are some of the flaws...</p>
+<h4 id="1-the-app-does-not-work-on-dark-mode"><a class="header" href="#1-the-app-does-not-work-on-dark-mode">1. The App does not work on dark mode</a></h4>
+<ul>
+<li>Texts are unclear in entries</li>
+<li>Company settings are unclear</li>
+<li>Reports are unclear</li>
+<li>Filters under reports are unclear</li>
+</ul>
+<h4 id="2-homepage"><a class="header" href="#2-homepage">2. Homepage</a></h4>
+<ul>
+<li>remove the &quot;with github, swift picture&quot;, add something agro-related picture</li>
+</ul>
+<h4 id="4-contact-us-page"><a class="header" href="#4-contact-us-page">4. Contact us page</a></h4>
+<ul>
+<li>make the map Kenyan</li>
+<li>update address</li>
+<li>make the web address at the bottom clickable</li>
+</ul>
+<h4 id="5-login-page"><a class="header" href="#5-login-page">5. Login Page</a></h4>
+<ul>
+<li>Add a view password toggle.</li>
+<li>Someone cannot scroll while typing. One is forced to click next or press the back button</li>
+<li>password reset not working</li>
+</ul>
+<h4 id="6-main-page"><a class="header" href="#6-main-page">6. Main page</a></h4>
+<ol>
+<li>Search lens not working.</li>
+<li>What are company settings? - I cannot edit them... bringing me to the 3rd point...</li>
+<li>There is no help button</li>
+<li>Reports not working- &quot;what is Page undefined of undefined (undefined rows)&quot;</li>
+</ol>
+<h4 id="7-reports-page"><a class="header" href="#7-reports-page">7. Reports page</a></h4>
+<ol>
+<li>Region, Branch and Loan Officer text inputs not working</li>
+<li>All side menu buttons not working</li>
+<li>No help button</li>
+</ol>
+<h4 id="8-search-bars"><a class="header" href="#8-search-bars">8. Search bars</a></h4>
+<ul>
+<li>The search bar has a typo : &quot;Type here to search...&quot;.</li>
+</ul>
+<h2 id="c-rephrasing-the-text-in-the-sanyiko-website"><a class="header" href="#c-rephrasing-the-text-in-the-sanyiko-website">C. Rephrasing the text in the sanyiko website</a></h2>
+<p><a href="https://docs.google.com/document/d/1T7S1NPQCgd1toxgb9jLtdpBuY-uoJFYXpocsp8eQCU8/edit?usp=sharing" target="_blank">here</a> is a table showing how sentences can be rephrased.  : <a href="https://docs.google.com/document/d/1T7S1NPQCgd1toxgb9jLtdpBuY-uoJFYXpocsp8eQCU8/edit?usp=sharing" target="_blank">table</a></p>
+<p><a href="22_06_2022.html">go back?</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-2-tuesday-report"><a class="header" href="#week-2-tuesday-report">Week 2 Tuesday Report</a></h1>
+<p><a href="week_2_tuesday.html">exit report?</a></p>
+<p>I was to find suitable templates for Sanyiko.com<br />
+Here are the ones I found :</p>
+<ol>
+<li><a href="https://monsterone.com/wordpress-themes/dryad-gardening-company-wordpress-theme-o195604/">drayd -- 5 star</a> - Wordpress theme</li>
+<li><a href="https://monsterone.com/wordpress-themes/wheattico-crop-farm-responsive-wordpress-theme-o7489/">Wheat</a> - Wordpress theme</li>
+<li><a href="https://monsterone.com/wordpress-themes/seodo-agriculture-farming-foundation-wordpress-theme-o225877/">Farm</a> - CMS template. It looks like it has a bit of php.</li>
+<li><a href="https://monsterone.com/wordpress-themes/enora-charity-and-nonprofit-wordpress-theme-o212379/">Children</a></li>
+</ol>
+<p>Considerations:</p>
+<ol>
+<li>Must be wordpress based.</li>
+<li>If the website is based on a single page, it should have fast screen loading. (I have not used tools to test the speed. Just plain sight)</li>
+</ol>
+<p>Am starting to think that our priorities when re-making the website should be SEO-centric.</p>
+<p>Concerning the SEO thread, I found <a href="https://www.99signals.com/single-page-websites-seo/#:%7E:text=Single%20page%20websites%20are%20not,for%20a%20single%20page%20website.">this</a>. Single page websites versus mutiple page websites on SEO.</p>
+<p>TLDR :<br />
+Concerning SEO, single page websites have advantages and disadvantages.</p>
+<blockquote>
+<p><em><strong>Advantages</strong></em> : Your SEO wins don't get scattered across multiple pages.<br />
+Domain authority of a website is mostly determined by the number of backlinks the site has been able to generate. <br>
+This works to the advantage of single page websites as all the links acquired by the site point to the same URL, meaning there will always be a 1:1 ratio of links to pages.</p>
+</blockquote>
+<blockquote>
+<p><em><strong>Disadvantage</strong></em> : You’ll have to compromise on keyword rankings.<br>
+Single page websites are usually developed around one main concept.<br />
+In this scenario, your ability to rank for a wide variety of keywords within the concept is quite limited.</p>
+</blockquote>
+<p><a href="week_2_tuesday.html">exit report?</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-3-report"><a class="header" href="#week-3-report">Week 3 report</a></h1>
+<ul>
+<li>I learnt a bit of SEO</li>
+<li>we published beta.sanyiko.com as sanyiko.com</li>
+<li>Implemented bits of SEO on sanyiko.com.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>
