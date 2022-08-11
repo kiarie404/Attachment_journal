@@ -48,7 +48,12 @@
   - [Monday](week_7_monday.md)
   - [Tuesday](weeek_7_tuesday.md)
   - [Wednesday](week_7_wednesday.md)
-- [Week 8]()
+  - [Thursday](week_7_thursday.md)
+  - [Friday](week_7_friday.md)
+- [Week 8](week_8.md)
+   - [Monday](week_8_monday.md)
+   - [Tuesday](week_8_tuesday.md)
+   - [Wednesday](week_8_wednesday.md)
 
 - [Reports](reports.md)
   - [Week 1 Reports]()
