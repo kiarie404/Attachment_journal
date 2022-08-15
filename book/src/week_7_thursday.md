@@ -1,8 +1,8 @@
 # Thursday
 
-- [ ] continue learning flutter
-- [ ] stop the spam mails coming through [imsguru.com](http://imsguru.com/)
-    - [ ] set better comment configs
-    - [ ] install non-spam plugins
-    - [ ] blacklist words, urls 
-- [ ] Start working on school reports.
+- [x] continue learning flutter
+- [x] stop the spam mails coming through [imsguru.com](http://imsguru.com/)
+    - [x] set better comment configs
+    - [x] install non-spam plugins
+    - [x] blacklist words, urls 
+- [x] Start working on school reports.

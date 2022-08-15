@@ -2,7 +2,7 @@
 
 - [x] finish [this Flutter Tutorial](https://docs.flutter.dev/get-started/codelab) by today.
 - [ ] Finish [this other Flutter tutorial](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0)
-- [ ] Start Learning Dart Language
+- [x] Start Learning Dart Language that is used in Flutter
 
 
 ***Change of plans:***<br>

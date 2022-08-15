@@ -1,7 +1,7 @@
 # Summary
 
 [introduction](introduction.md)
-
+- [Table of contents](contents.md)
 
 - [Week 1](week_1.md)
   - [Monday](20_06_2022.md)
@@ -56,6 +56,9 @@
    - [Wednesday](week_8_wednesday.md)
    - [Thursday](week_8_thursday.md)
    - [Friday](week_8_friday.md)
+- [Week 9](week_9.md)
+  - [Monday](week_9_monday.md)
+  - 
 
 - [Reports](reports.md)
   - [Week 1 Reports]()

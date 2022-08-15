@@ -1,4 +1,5 @@
 # Week 8 Outline
 
-This was the week where we had Elections in Kenya\
-I will report to work on Thursday, Friday and possibly Saturday.
+This was the election week in Kenya.\
+So I was off work on Monday, Tuesday and Wednesday.\
+However, I will be at work on Thursday and Friday onl

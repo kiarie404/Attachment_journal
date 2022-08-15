@@ -5,4 +5,4 @@
   - [x] build "Sanyiko product page"
   - [x] Fill our FAQ page
 
-- [ ] Launch half-done-website
+- [x] Launch half-done-website
