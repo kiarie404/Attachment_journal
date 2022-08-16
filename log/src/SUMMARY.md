@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](introduction.md)
+<!-- [Introduction](introduction.md) -->
 
 - [Week 1](week_1.md)
 - [Week 2](week_2.md)

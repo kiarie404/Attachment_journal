@@ -1,6 +1,7 @@
 # introduction
 This is a printable logbook.\
-You can find the online version of this logbook at : https://github.com/kiarie404/Attachment_journal
+You can find the online version of this logbook at : https://github.com/kiarie404/Attachment_journal\
+This physical logbook is just a summary of the online version logbook.
 
 #### Attachment Logbook Details
 | Attachment Details       |          |

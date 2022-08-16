@@ -1,7 +1,5 @@
 # Tuesday
 
-I intend this to be my last day.
-- [ ] print the logbook.
-- [ ] continue learning Rust
-
-*if any work-related task shows up, it becomes a priority.*
+- [x] print the logbook.
+- [x] Show a co-worker how to document software using Markdown and Mdbook software.
+- [x] continue learning Rust

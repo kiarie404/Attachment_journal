@@ -1,7 +1,7 @@
 # Week 4
 task outline:
 - [x] finish the data Collection at ASL credit ltd.
-- [ ] Implement SEO to beta.sanyiko.com.
+- [x] Implement SEO to beta.sanyiko.com.
 
 ## Monday
 This was a Holiday.
@@ -23,6 +23,7 @@ This was a Holiday.
 - [x] Edit the Homepage to suit SEO requirements.
 - [x] Edit About us page to suit SEO requirements.
 
+**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
 #### Lessons learnt are at the end of the Logbook
 
 #### *Supervisor's signature* : __________________________________

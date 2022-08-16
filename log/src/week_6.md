@@ -37,6 +37,7 @@ tasks:<br>
   - [x] Finish contact page
   - [x] Find suitable plugins to help build clients page
 
+**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
 #### Lessons learnt are at the end of the Logbook
 
 #### *Supervisor's signature* : __________________________________

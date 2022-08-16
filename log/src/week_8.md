@@ -27,6 +27,7 @@ Kenyan Elections
     - [x] configure caching settings
     - [ ] find a free CDN??
 
+**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
 #### Lessons learnt are at the end of the Logbook
 
 #### *Supervisor's signature* : __________________________________

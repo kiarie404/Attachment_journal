@@ -33,7 +33,7 @@ I'm going back to Nativescript, At least the CSS and Javascript skills that I wi
 ## Saturday
 - [x] Continue learning CSS.
 
-
+**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
 #### Lessons learnt are at the end of the Logbook
 
 #### *Supervisor's signature* : __________________________________
