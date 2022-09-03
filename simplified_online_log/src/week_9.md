@@ -17,7 +17,7 @@
 
 # Wednesday
 - [x] Use Markdown and Mdbook to write documentation for the MFI Expert Application.
-  - I will collaborate with Dennis, the MFI product manager, to create the user guide.
+  - I will collaborate with Dennis Mutethia, the MFI product manager, to create the user guide.
   - As for the developer documentation... that will wait. Ha ha ha.
 
 # Thursday
@@ -33,4 +33,4 @@
 - [ ] Publish the MFI Documentation for Application users to view
 
 
-**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**___
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
