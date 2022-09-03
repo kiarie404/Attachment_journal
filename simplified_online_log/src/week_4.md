@@ -23,11 +23,6 @@ This was a Holiday.
 - [x] Edit the Homepage to suit SEO requirements.
 - [x] Edit About us page to suit SEO requirements.
 
-**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
-#### Lessons learnt are at the end of the Logbook
-
-#### *Supervisor's signature* : __________________________________
-#### *Supervisors Remarks* : _______________________________________________________________________________________________________________________________________________________________________________________________________
-
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
 
 

@@ -28,10 +28,6 @@ week 2 work outline:
 - [x] finish up on Sanyiko's homepage
 - [x] present homepage to Harsha and Liz
 
-**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
-#### Lessons learnt are at the end of the Logbook
-
-#### *Supervisor's signature* : __________________________________
-#### *Supervisors Remarks* : _______________________________________________________________________________________________________________________________________________________________________________________________________
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
 
 

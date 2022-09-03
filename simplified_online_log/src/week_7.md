@@ -29,9 +29,5 @@ It is during this week that we are to launch the new imsguru.com
 ## Friday
 - I took a day off.
 
-**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
-#### Lessons learnt are at the end of the Logbook
-
-#### *Supervisor's signature* : __________________________________
-#### *Supervisors Remarks* : _______________________________________________________________________________________________________________________________________________________________________________________________________
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
 

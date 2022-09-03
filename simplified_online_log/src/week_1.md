@@ -55,8 +55,4 @@ Nothing much happened, this was my first day.
 - [x] get access rights on both MFI and IMS.
 - [x] If Harsha has not yet shown up, start learning about Wordpress.
 
-**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
-#### Lessons learnt are at the end of the Logbook
-
-#### *Supervisor's signature* : __________________________________
-#### *Supervisors Remarks* : _______________________________________________________________________________________________________________________________________________________________________________________________________
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**

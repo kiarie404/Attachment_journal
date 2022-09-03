@@ -2,7 +2,9 @@
 This is an attachment journal at IMS Guru.<br>
 Think of it as an online version of a Logbook.<br>
 You can read different versions of the logbook depending on how much detail you need:
-1. [Detailed Logbook](https://kiarie404.github.io/Attachment_journal/)
+1. 
+2. [Detailed online Logbook](https://kiarie404.github.io/Attachment_journal/)
+3. 
 
 This is better than recording events in a physical log book. Why?
 - The integrity of the comments can be proven.

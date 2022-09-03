@@ -29,11 +29,7 @@ work outline:
 We did data entry tasks on the loan records at ASL credit ltd\
 We went to ASL credit ltd to collect data for the [MFI-Expert system.](https://mfiexpert.com/)
 
-**This physical logbook is just a summary of the online version logbook at : https://github.com/kiarie404/Attachment_journal**
-#### Lessons learnt are at the end of the Logbook
-
-#### *Supervisor's signature* : __________________________________
-#### *Supervisors Remarks* : _______________________________________________________________________________________________________________________________________________________________________________________________________
+**This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
 
 
 
