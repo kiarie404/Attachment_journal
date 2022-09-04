@@ -11,6 +11,7 @@ You can read different versions of the logbook depending on how much detail you 
 2. [Letter of Offer](https://raw.githubusercontent.com/kiarie404/Attachment_journal/main/documents/Offer%20Letter%20Wagura%20James%20Kiarie.pdf)
 3. [Scanned Logbook](https://raw.githubusercontent.com/kiarie404/Attachment_journal/main/documents/scanned_log/Logbook%20Wagura%20James%20Kiarie%20P15.1667.2019.pdf)
 4. [Attachment details](https://raw.githubusercontent.com/kiarie404/Attachment_journal/main/documents/attachment_details_form.pdf)
+5. [Recommendation Letter](https://raw.githubusercontent.com/kiarie404/Attachment_journal/main/documents/recommendation_letter.pdf)
    
 ### Why I built a non-paper logbook
 This is better than recording events in a physical log book. Why?
