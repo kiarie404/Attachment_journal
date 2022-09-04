@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Logbook"
+
+
+[output.html]
+default-theme = "Light"
+preferred-dark-theme = "Ayu"

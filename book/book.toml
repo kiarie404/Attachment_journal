@@ -7,8 +7,8 @@ title = "Log Book"
 
 
 [output.html]
-default-theme = "Navy"
-preferred-dark-theme = "Navy"
+default-theme = "Light"
+preferred-dark-theme = "Ayu"
 git-repository-url = "https://github.com/kiarie404/Attachment_journal"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/kiarie404/Attachment_journal/edit/main/book/{path}"
