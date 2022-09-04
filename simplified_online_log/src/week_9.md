@@ -1,9 +1,5 @@
 # Week 9
 
-- *the imsguru.com came down with buggy error404 messages*\
-- *We spent the morning hours fixing the permalinks*\
-- *Afterwords we discussed with Harsha on the Rust programming language and how I would implement git-software using Rust*
-
 ## Monday
 - *the imsguru.com came down with buggy error404 messages*\
 - *We spent the morning hours fixing the permalinks*\
@@ -32,7 +28,7 @@
 - [x] See if we can use Docusaurus instead of mdbook to document our software.
 - [x] Publish the MFI Documentation for Application users to view
 
-The End.
-
 
 **This logbook is just a summary of the [online version logbook](https://kiarie404.github.io/Attachment_journal/)**
+
+The End.
